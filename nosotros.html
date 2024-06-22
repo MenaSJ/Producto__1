@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a5d3 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main-content {
+            padding: 20px 0;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .team-member {
+            margin: 20px;
+            text-align: center;
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .values {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Acerca de Nosotros</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <section class="main-content">
+            <h2>Nuestra Historia</h2>
+            <p>Somos una empresa dedicada a proporcionar las mejores soluciones en tecnología. Desde nuestros inicios en 2005, hemos crecido constantemente, innovando y adaptándonos a las nuevas tendencias del mercado.</p>
+            <h2>Nuestro Equipo</h2>
+            <div class="team">
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Foto del miembro del equipo">
+                    <h3>Juan Carlos Mena Sánchez</h3>
+                    <p>CEO</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Foto del miembro del equipo">
+                    <h3>Andrea Casiano García</h3>
+                    <p>CTO</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Foto del miembro del equipo">
+                    <h3>Nelly Dania Gonzalez Montes</h3>
+                    <p>CMO</p>
+                </div>
+            </div>
+            <h2>Nuestros Valores</h2>
+            <div class="values">
+                <ul>
+                    <li>Innovación</li>
+                    <li>Compromiso</li>
+                    <li>Calidad</li>
+                    <li>Integridad</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
